@@ -49,6 +49,6 @@ storiesOf('<FullHeader />', module)
       subtitle="Curso de JS com TDD na prática"
       bgColor="#EBE9EB"
       textColor="#3299BB"
-      video="http://callmenick.com/_development/video/full-screen-background-video/media/demo.mp4"
+      video="http://callmenick.com/development/video/full-screen-background-video/media/demo.mp4"
     />
   ));
