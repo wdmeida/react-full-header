@@ -2,7 +2,8 @@
   "extends": "airbnb",
   "parser": "babel-eslint",
   "env": {
-    "es6": true
+    "es6": true,
+    "mocha": true
   },
   "ecmaFeatures": {
     "modules": true
@@ -14,9 +15,9 @@
     }
   },
   "rules": {
-    "indent": ["error", 4],
+    "indent": ["error", 2],
     "id-length": 0,
-    "react/jsx-indent": [2, 4],
-    "react/jsx-indent-props": [2, 4]
+    "react/jsx-indent": [2],
+    "react/jsx-indent-props": [2]
   }
 }
