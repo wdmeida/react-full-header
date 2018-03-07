@@ -6,6 +6,7 @@ import {
   headerStyle,
   subtitleStyle,
   titleStyle,
+  videoStyle,
 } from './Styles';
 
 const defaultProps = {
@@ -22,9 +23,10 @@ const propTypes = {
   textColor: PropType.string,
   font: PropType.string,
   bgImg: PropType.string,
+  video: PropType.string,
 };
 
-const FullHeader = ({ title, subtitle, bgColor, textColor, font, bgImg }) => {
+const FullHeader = ({ title, subtitle, bgColor, textColor, font, bgImg, video }) => {
   const headerStyleCombined = {
     ...headerStyle,
     backgroundColor: bgColor,
@@ -39,6 +41,7 @@ const FullHeader = ({ title, subtitle, bgColor, textColor, font, bgImg }) => {
         {title && <h1 style={titleStyle}>{title}</h1>}
         {subtitle && <h2 style={subtitleStyle}>{subtitle}</h2>}
       </div>
+      {video && <video style={videoStyle} autoPlay muted loop src={video} />}
     </header>
   );
 
