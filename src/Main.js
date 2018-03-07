@@ -1,6 +1,11 @@
 import React from 'react';
 import PropType from 'prop-types';
 
+const propTypes = {
+  title: PropType.string,
+  subtitle: PropType.string,
+};
+
 const FullHeader = ({ title, subtitle }) => {
   const component = (
     <header>
@@ -10,11 +15,6 @@ const FullHeader = ({ title, subtitle }) => {
   );
 
   return component;
-};
-
-const propTypes = {
-  title: PropType.string,
-  subtitle: PropType.string,
 };
 
 FullHeader.propTypes = propTypes;
