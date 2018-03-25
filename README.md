@@ -1,5 +1,5 @@
 # React full header
-[![Build Status](https://travis-ci.org/willianjusten/react-full-header.svg?branch=master)](https://travis-ci.org/wdmeida/react-full-header)
+[![Build Status](https://travis-ci.org/wdmeida/react-full-header.svg?branch=master)](https://travis-ci.org/wdmeida/react-full-header)
 
 React component developed during the course of [JS com TDD na prática](https://www.udemy.com/js-com-tdd-na-pratica/?couponCode=GITHUB_LINK).
 
